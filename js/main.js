@@ -15,3 +15,15 @@ increaseWork.addEventListener("click", function(){
 	workClicks+= 1;
 	workDisplay.innerHTML = workClicks;
 }, false);
+
+// decrease work time
+
+var decreaseWork = document.getElementById("minusWorkButton");
+decreaseWork.addEventListener("click", function(){
+	workClicks-= 1;
+	workDisplay.innerHTML = workClicks;
+	if(workClicks < 1){
+		workClicks = 1;
+		workDisplay.innerHTML = workClicks;
+	} // end of if
+});
