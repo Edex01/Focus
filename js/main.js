@@ -27,3 +27,10 @@ decreaseWork.addEventListener("click", function(){
 		workDisplay.innerHTML = workClicks;
 	} // end of if
 });
+
+var increaseBreak = document.getElementById("addBreakButton");
+increaseBreak.addEventListener("click", function(){
+	breakClicks+= 1;
+	breakDisplay.innerHTML = breakClicks;
+}, false);
+
