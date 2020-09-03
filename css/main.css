@@ -1,0 +1,46 @@
+
+
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4ff;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+
+
+/* MAIN CONTAINER */
+
+#main-container {
+    width: 35%;
+    margin-top: 40px;
+    height: 580px;
+    box-shadow: 10px 90px 50px;
+}
+
+/* HEADER  */
+
+#heading-panel {
+    height: 280px;
+    width: 100%;
+    padding-top:30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #7f8fae;
+}
+
+/* WORK DURATION */
+
+.panel-2 {
+    height: 100px;
+    width: 100%;
+}
+
+#work-duration {
+text-align: center;
+width: 100%;
+padding: 10px;
+background-color: #dadaff;
+color: #ffffff;
+}
