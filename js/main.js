@@ -28,14 +28,17 @@ decreaseWork.addEventListener("click", function(){
 	} // end of if
 });
 
+// decrease break time
 
-// dec  break time
-var increaseBreak = document.getElementById("addBreakButton");
-increaseBreak.addEventListener("click", function(){
-	breakClicks+= 1;
+var decreaseBreak = document.getElementById("minusBreakButton");
+decreaseBreak.addEventListener("click", function(){
+	breakClicks-= 1;
 	breakDisplay.innerHTML = breakClicks;
+	if(breakClicks < 1){
+	   breakClicks = 1;
+	   breakDisplay.innerHTML = breakClicks;	
+	} // end of if 
 }, false);
-
 // increase break time
 
 var increaseBreak = document.getElementById("addBreakButton");
