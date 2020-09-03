@@ -28,9 +28,18 @@ decreaseWork.addEventListener("click", function(){
 	} // end of if
 });
 
+
+// dec  break time
 var increaseBreak = document.getElementById("addBreakButton");
 increaseBreak.addEventListener("click", function(){
 	breakClicks+= 1;
 	breakDisplay.innerHTML = breakClicks;
 }, false);
 
+// increase break time
+
+var increaseBreak = document.getElementById("addBreakButton");
+increaseBreak.addEventListener("click", function(){
+	breakClicks+= 1;
+	breakDisplay.innerHTML = breakClicks;
+}, false);
