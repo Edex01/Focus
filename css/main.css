@@ -15,8 +15,10 @@ body {
 #main-container {
     width: 35%;
     margin-top: 40px;
+    margin-right: 50px;
     height: 580px;
     box-shadow: 10px 90px 50px;
+
 }
 
 /* HEADER  */
@@ -43,4 +45,28 @@ width: 100%;
 padding: 10px;
 background-color: #dadaff;
 color: #ffffff;
+}
+
+
+/* BUTTON */
+
+#button-panel {
+text-align: center;
+background-color: #fffcd3;
+height: auto;
+width: 100%;
+}
+.btn {
+background-color: transparent;
+text-transform: uppercase;
+border: none;
+color: #6d7797;
+font-size: 1em;
+}
+.upperpanelBtn {
+height: 50px;
+font-size: 30px;
+}
+.upperpanelBtn:hover {
+background-color: #fc5d66;
 }
