@@ -7,6 +7,12 @@ body {
     background-color: #f4f4ff;
     text-transform: uppercase;
     font-size: 2em;
+    margin: 20%;
+}
+
+.fa {
+    margin: 50px;
+    color: brown;
 }
 
 
