@@ -16,7 +16,7 @@ increaseWork.addEventListener("click", function(){
 	workDisplay.innerHTML = workClicks;
 }, false);
 
-// decrease work time
+// Decrease Work Time
 
 var decreaseWork = document.getElementById("minusWorkButton");
 decreaseWork.addEventListener("click", function(){
@@ -28,8 +28,7 @@ decreaseWork.addEventListener("click", function(){
 	} // end of if
 });
 
-// decrease break time
-
+// Decrease Break Time
 var decreaseBreak = document.getElementById("minusBreakButton");
 decreaseBreak.addEventListener("click", function(){
 	breakClicks-= 1;
@@ -46,3 +45,11 @@ increaseBreak.addEventListener("click", function(){
 	breakClicks+= 1;
 	breakDisplay.innerHTML = breakClicks;
 }, false);
+
+// function start
+
+function start() {
+	count = workClicks * 60;
+	workSession = setInterval(workCountDown,1000);
+}// end of function
+
